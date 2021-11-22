@@ -1,0 +1,12 @@
+# 配置服务器
+server:
+  port: 8080
+
+# 配置数据库连接池
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/formybatisplus?serverTimezone=UTC
+      username: root
+      password: 158130
